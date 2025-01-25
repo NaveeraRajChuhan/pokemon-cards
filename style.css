@@ -47,11 +47,14 @@
 
 .sec1 {
     display: flex;
-    padding: 0px 18px 0px 18px;
-    background-color: bisque;
-    width: 60%;
+    padding: 50px 18px 0px 18px;
+    /* background-color: bisque; */
+    background-color: aqua;
+    width: 70%;
     gap: 18px;
     margin: auto;
+    height: 800px;
+    margin-bottom: 100px;
 }
 
 /* .sec1-right-top{
@@ -59,8 +62,8 @@
 } */
 .sec1-left-top-image {
     width: 579px;
-    height: 485px;
-    background-color: rgb(228, 208, 95);
+    height: 460px;
+    background-color:#1b53ba;
 }
 
 .sec1-left-top-img {
@@ -68,34 +71,97 @@
     /* height: 100%; */
 }
 .sec1-right-top {
-    width: 280px;
-    height: 200px;
-    background-color: rgb(5, 5, 83);
+    /* width: 280px;
+    height: 300px; */
 }
 
-.sec1-right-top-img {
-    width: 100%;
-    height: 100%;
+.sec1-right-top-img1{
+    background-color: #ff90c4;
+    width: 283px;
+    height: 283px;
 }
+.sec1-right-top-image1 {
+    width: 100%;
+    height: 160px;
+}
+.sec1-right-top-img2{
+    margin-top: 20px;
+    background-color: #e6bc2f;
+    width: 283px;
+    height: 283px;
+}
+.sec1-right-top-imgage2 {
+    width: 100%;
+    height: 160px;
+}
+.sec1-bottom{
+    display: block;
+
+}
+.sec1-bottom-img4{
+    /* margin-top: 20px; */
+    background-color: #b38aea;
+    width: 283px;
+    height: 283px;
+    margin: 480px 0px 0px -900px;
+
+}
+.sec1-bottom-image4{
+    width: 100%;
+    height: 160px;
+
+}
+.sec1-bottom-img5{
+    margin-top: 20px;
+    background-color:#E3350D;
+    width: 283px;
+    height: 283px;
+    margin: -280px 0px 0px -600px;
+
+
+}
+.sec1-bottom-image5{
+    width: 100%;
+    height: 160px;
+
+}
+.sec1-bottom-img6{
+    margin-top: 20px;
+    background-color: #e6bc2f;
+    width: 283px;
+    height: 283px;
+
+}
+.sec1-bottom-image6{
+    width: 100%;
+    height: 160px;
+
+}
+
 
 /* >>>>>>>>>>>>>>>>>>>>>>...........sec2..........<<<<<<<<<<<<<<<<<<<<<< */
 .sec2-top-head {
-    background-color: aquamarine;
+    background-color:#232323;
     width: 255px;
-    height: 60px;
+    height: 48px;
     margin-left: 200px;
+    /* border-radius: 8px 8px 0px 0px; */
+    border-radius: 5px 5px 0 0;
+    margin-top: 100px;
+    font-size: 125%;
 }
 
 .sec2-top-heading {
     /* color: rgb(12, 100, 71); */
-    color: #696666;
-    font-size: 25px;
+    color:#919191;
+    font-size: 20px;
     padding: 16px;
-
+font-weight: 200;
 }
 
 .sec2 {
     /* background-color: rgb(32, 32, 32); */
+    
     background-color: black;
     display: flex;
     width: 100%;
@@ -137,7 +203,7 @@
 
 .sec2-sider5 {
     /* background-color: gray; */
-    /* background-color: rgb(83, 83, 83); */
+    background-color: rgb(83, 83, 83);
     width: 240px;
     height: 380px;
 }
