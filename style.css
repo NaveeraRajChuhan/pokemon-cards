@@ -31,11 +31,11 @@
 }
 .nav1-card2 {
     background-color: white;
-    box-shadow: 0 0 7px 1px #666666;
+    /* box-shadow: 0 0 7px 1px #666666; */
 }
 .nav1-card3 {
     background-color: white;
-    box-shadow: 0 0 7px 1px #666666;
+    /* box-shadow: 0 0 7px 1px #666666; */
 }
 .nav1-card4 {
     background-color: white;
@@ -104,7 +104,11 @@
     width: 9.6%;
     border-bottom: 5.5px solid #919191;
   border-bottom-left-radius: 6px;
-
+display: flex;
+flex-direction: column;
+align-items:center;
+gap: 20px;
+justify-content: center;
 }
 .nav2-logo-1:hover{
     cursor: pointer;
@@ -115,6 +119,11 @@
     height: 100%;
     width: 9.6%;
     border-bottom: 5.5px solid #e3350d;
+    display: flex;
+flex-direction: column;
+align-items:center;
+gap: 20px;
+justify-content: center;
 
 }
 .nav2-logo-2:hover{
@@ -125,6 +134,11 @@ background-color:#e3350d ;
     height: 100%;
     width: 9.6%;
     border-bottom: 5.5px solid #ee6b2f;
+    display: flex;
+flex-direction: column;
+align-items:center;
+gap: 5px;
+justify-content: center;
 
 }
 .nav2-logo-3:hover{
@@ -134,6 +148,11 @@ background-color:#e3350d ;
     height: 100%;
     width: 9.6%;
   border-bottom: 5.5px solid #E6BC2F ;
+  display: flex;
+flex-direction: column;
+align-items:center;
+gap: 20px;
+justify-content: center;
 
 
 }
@@ -144,6 +163,11 @@ background-color:#e3350d ;
     height: 100%;
     width: 9.6%;
   border-bottom: 5.5px solid #4DAD5B;
+  display: flex;
+flex-direction: column;
+align-items:center;
+gap: 20px;
+justify-content: center;
 
 }
 .nav2-logo-5:hover{
@@ -153,6 +177,11 @@ background-color:#e3350d ;
     height: 100%;
     width: 9.6%;
   border-bottom: 5.5px solid #30A7D7;
+  display: flex;
+flex-direction: column;
+align-items:center;
+gap: 10px;
+justify-content: center;
 
 
 }
@@ -164,6 +193,11 @@ background-color:#e3350d ;
     width: 9.6%;
     border-bottom: 5.5px solid #1B53BA;
     border-bottom-right-radius: 6px;
+    display: flex;
+flex-direction: column;
+align-items:center;
+gap: 20px;
+justify-content: center;
 
 }
 .nav2-logo-7:hover{
@@ -172,7 +206,7 @@ background-color:#e3350d ;
 .nav2-img1{
     width:30px ;
     height:40px ;
-    margin: 15px 60px 20px 60px;
+    /* margin: 15px 60px 20px 60px; */
 }
 
 .nav2-logo-head{
@@ -181,8 +215,9 @@ background-color:#e3350d ;
 
     font-size: 15px;
     margin-top: -20px;
-    margin: -25px 0px 0px 50px;
+    /* margin: -25px 0px 0px 50px; */
     font-weight: 100;
+    text-align: center;
 
 }
 .nav2-logo-head:hover{
@@ -191,9 +226,11 @@ background-color:#e3350d ;
 .nav2-logo-head3{
     font-size: 15px;
     /* margin-top: -20px; */
-    margin: -25px 0px 0px 30px;
+    /* margin: -25px 0px 0px 30px; */
     font-weight: 100;
     color: #464646;
+    text-align: center;
+
 
 }
 .nav2-logo-head3:hover{
@@ -202,9 +239,11 @@ background-color:#e3350d ;
 .nav2-logo-head6{
     font-size: 15px;
     /* margin-top: -20px; */
-    margin: -25px 0px 0px 10px;
+    /* margin: -25px 0px 0px 10px; */
     font-weight: 100;
     color: #464646;
+    text-align: center;
+
 
 }
 .nav2-logo-head6:hover{
@@ -226,8 +265,8 @@ background-color:#e3350d ;
 
 /* >>>>>>>>>>>>>>>>>>>>>>......................side...........................<<<<<<<<<<<<<<<<<<<<<< */
 .side{
-    width: 72px;
-    height: 150px;
+    width: 62px;
+    height: 185px;
     background-color: purple;
     position: fixed;
     margin-top: 30px;
@@ -236,18 +275,26 @@ background-color:#e3350d ;
 }
 .side-top{
     background-color: #20a306;
-    width: 70px;
+    width: 60px;
     height: 60%;
+    /* align-items: center;
+    justify-content: center; */
 
 }
+.side-top-img{
+    width: 40px;
+    height: 40px;
+    /* margin: auto; */
+    margin: 30px 10px 0px 10px ;
+}
 .side-top-head{
-    font-size: 15px;
-    
+    font-size: 12px;
+    color: white;
     text-align: center;
 }
 .side-bottom{
     background-color: #232323;
-    width: 70px;
+    width: 60px;
     height: 40%;
 
 }
