@@ -214,7 +214,13 @@ background-color:#e3350d ;
 
 
 
-
+.main{
+    background-image: url(./image/container_bg1.png);
+    width: 100%;
+  height: 462vh;
+  /* background-color: #424242; */
+  border: 2.5px solid #f0f0f0;
+}
 
 
 
