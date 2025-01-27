@@ -5,18 +5,20 @@
 }
 
 .nav1 {
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     width: 100%;
     height: 10.5vh;
     align-items: center;
     gap: 3px;
+    border-bottom: solid 2px #dedede;
+    background-color: #f5f5f5
 }
 
 .nav-wrapper {
     /* margin: 0px 50px 0px 50px; */
     margin: auto;
-    background-color: rgb(25, 0, 255);
+    /* background-color: rgb(25, 0, 255); */
     display: flex;
     height: 10.5vh;
     align-items: center;
@@ -25,14 +27,195 @@
 
 .nav1-card1 {
     background-color: white;
+    box-shadow: 0 0 7px 1px #666666;
+}
+.nav1-card2 {
+    background-color: white;
+    box-shadow: 0 0 7px 1px #666666;
+}
+.nav1-card3 {
+    background-color: white;
+    box-shadow: 0 0 7px 1px #666666;
+}
+.nav1-card4 {
+    background-color: white;
+    box-shadow: 0 0 7px 1px #666666;
+}
+.nav1-card5 {
+    background-color: white;
+    box-shadow: 0 0 7px 1px #666666;
+}
+.nav1-card6 {
+    background-color: white;
+    box-shadow: 0 0 7px 1px #666666;
+}
+
+
+
+
+
+
+
+.nav1-img1{
+    width:110px ;
+    height:60px ;
+}
+.nav1-img2{
+    width:100px ;
+    height:50px ;
+}
+.nav1-img3{
+    width:100px ;
+    height:50px ;
+}
+.nav1-img4{
+    width:170px ;
+    height:60px ;
+}
+.nav1-img5{
+    width:170px ;
+    height:60px ;
+}
+.nav1-img6{
+    width:170px ;
+    height:60px ;
+}
+.nav1-image-hov:hover{
+    cursor: pointer;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>>...........nav2..........<<<<<<<<<<<<<<<<<<<<<< */
 .nav2 {
     width: 100%;
     height: 14vh;
-    background-color: rgb(255, 0, 0);
+    /* background-color: rgb(255, 0, 0); */
+    background-color: #ffffff;
+  /* width: 100%; */
+  /* height: 14vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
+.nav2-logo-1{
+    height: 100%;
+    width: 9.6%;
+    border-bottom: 5.5px solid #919191;
+  border-bottom-left-radius: 6px;
+
+}
+.nav2-logo-1:hover{
+    cursor: pointer;
+   background-color: #919191; 
+}
+
+.nav2-logo-2{
+    height: 100%;
+    width: 9.6%;
+    border-bottom: 5.5px solid #e3350d;
+
+}
+.nav2-logo-2:hover{
+background-color:#e3350d ;
+}
+
+.nav2-logo-3{
+    height: 100%;
+    width: 9.6%;
+    border-bottom: 5.5px solid #ee6b2f;
+
+}
+.nav2-logo-3:hover{
+    background-color:#ee6b2f ;
+    }
+.nav2-logo-4{
+    height: 100%;
+    width: 9.6%;
+  border-bottom: 5.5px solid #E6BC2F ;
+
+
+}
+.nav2-logo-4:hover{
+    background-color:#E6BC2F ;
+    }
+.nav2-logo-5{
+    height: 100%;
+    width: 9.6%;
+  border-bottom: 5.5px solid #4DAD5B;
+
+}
+.nav2-logo-5:hover{
+    background-color:#4DAD5B ;
+    }
+.nav2-logo-6{
+    height: 100%;
+    width: 9.6%;
+  border-bottom: 5.5px solid #30A7D7;
+
+
+}
+.nav2-logo-6:hover{
+    background-color:#30A7D7 ;
+    }
+.nav2-logo-7{
+    height: 100%;
+    width: 9.6%;
+    border-bottom: 5.5px solid #1B53BA;
+    border-bottom-right-radius: 6px;
+
+}
+.nav2-logo-7:hover{
+    background-color:#1B53BA ;
+    }
+.nav2-img1{
+    width:30px ;
+    height:40px ;
+    margin: 15px 60px 20px 60px;
+}
+
+.nav2-logo-head{
+    /* color: white; */
+    color: #464646;
+
+    font-size: 15px;
+    margin-top: -20px;
+    margin: -25px 0px 0px 50px;
+    font-weight: 100;
+
+}
+.nav2-logo-head:hover{
+    color: white;
+}
+.nav2-logo-head3{
+    font-size: 15px;
+    /* margin-top: -20px; */
+    margin: -25px 0px 0px 30px;
+    font-weight: 100;
+    color: #464646;
+
+}
+.nav2-logo-head3:hover{
+    color: white;
+}
+.nav2-logo-head6{
+    font-size: 15px;
+    /* margin-top: -20px; */
+    margin: -25px 0px 0px 10px;
+    font-weight: 100;
+    color: #464646;
+
+}
+.nav2-logo-head6:hover{
+    color: white;
+}
+
+
+
+
+
+
 
 
 /* >>>>>>>>>>>>>>>>>>>>>>......................side...........................<<<<<<<<<<<<<<<<<<<<<< */
@@ -110,8 +293,8 @@
     margin: auto;
     justify-content: space-evenly;
     width: 74%;
-    /* background-color: aqua; */
-    background: linear-gradient(90deg, rgb(255, 0, 149), rgb(0, 4, 255));
+    /* background: linear-gradient(90deg, rgb(255, 0, 149), rgb(0, 4, 255)); */
+    background-color: white;
     height: 830px;
     /* padding: 30px; */
 }
