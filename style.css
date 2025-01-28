@@ -301,6 +301,13 @@ justify-content: center;
     height: 40%;
 
 }
+.side-bottom-img{
+    width: 40px;
+    height: 40px;
+    /* margin: auto; */
+    margin: 20px 10px 0px 10px ;
+
+}
 
 
 
